@@ -17,3 +17,8 @@ variable "insightnameqa" {
   type = string
  
 }
+
+variable "insight2qa" {
+  type = string
+ 
+}

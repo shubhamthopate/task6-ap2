@@ -22,14 +22,15 @@ module "module-dev1" {
 #  insight2dev = var.insight2dev
 # }
 
-# module "module-qa1" {
-#  source = "./modules/module-qa1"
-#  rgnameqa = var.rgnameqa
-#  locationqa = var.locationqa
-#  workspacenameqa = var.workspacenameqa
-#  insightnameqa = var.insightnameqa
+module "module-qa1" {
+ source = "./modules/module-qa1"
+ rgnameqa = var.rgnameqa
+ locationqa = var.locationqa
+ workspacenameqa = var.workspacenameqa
+ insightnameqa = var.insightnameqa
+ insight2qa = var.insight2qa
  
-# }
+}
 
 # module "module-qa2" {
 #  source = "./modules/module-qa2"
