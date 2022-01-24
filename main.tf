@@ -14,31 +14,31 @@ module "module-dev1" {
  insight2dev = var.insight2dev
  
 }
-/*
-module "module-dev2" {
- source = "./modules/module-dev2"
- rgnamedev = var.rgnamedev
- locationdev = var.locationdev
- insight2dev = var.insight2dev
-}
 
-module "module-qa1" {
- source = "./modules/module-qa1"
- rgnameqa = var.rgnameqa
- locationqa = var.locationqa
- workspacenameqa = var.workspacenameqa
- insightnameqa = var.insightnameqa
- 
-}
+# module "module-dev2" {
+#  source = "./modules/module-dev2"
+#  rgnamedev = var.rgnamedev
+#  locationdev = var.locationdev
+#  insight2dev = var.insight2dev
+# }
 
-module "module-qa2" {
- source = "./modules/module-qa2"
- rgnameqa = var.rgnameqa
- locationqa = var.locationqa
- insight2qa = var.insight2qa
+# module "module-qa1" {
+#  source = "./modules/module-qa1"
+#  rgnameqa = var.rgnameqa
+#  locationqa = var.locationqa
+#  workspacenameqa = var.workspacenameqa
+#  insightnameqa = var.insightnameqa
  
-}
-/*
+# }
+
+# module "module-qa2" {
+#  source = "./modules/module-qa2"
+#  rgnameqa = var.rgnameqa
+#  locationqa = var.locationqa
+#  insight2qa = var.insight2qa
+ 
+# }
+
 
 
 
