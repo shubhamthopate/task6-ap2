@@ -20,7 +20,7 @@ resource "azurerm_application_insights" "example2" {
   application_type    = "web"
 }
 
-resource "azurerm_application_insights" "example2" {
+resource "azurerm_application_insights" "example3" {
   name                = var.insight2qa
   location            = azurerm_resource_group.example1.location
   resource_group_name = azurerm_resource_group.example1.name
